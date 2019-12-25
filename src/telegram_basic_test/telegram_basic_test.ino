@@ -6,7 +6,7 @@ Telegram send message basic test for ESP32
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
 #include <UniversalTelegramBot.h>
-#define CHAT_ID "782590637"
+#define CHAT_ID "Your chat ID"
 int acu = 0;
 
 // Initialize Wifi connection to the router
