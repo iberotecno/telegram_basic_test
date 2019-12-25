@@ -10,11 +10,11 @@ Telegram send message basic test for ESP32
 int acu = 0;
 
 // Initialize Wifi connection to the router
-char ssid[] = "MiRed";     // your network SSID (name)
-char password[] = "Mi_clave_wifi"; // your network key
+char ssid[] = "Your wifi name";     // your network SSID (name)
+char password[] = "Your wifi pass"; // your network key
 
 // Initialize Telegram BOT
-#define BOTtoken "640232033:AAEqehytVkjMivcuxJ16rdfA6g8EMujJiLc"  // your Bot Token (Get from Botfather)
+#define BOTtoken "Your Bot Token here"  // your Bot Token (Get from Botfather)
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 int Bot_mtbs = 1000; //mean time between scan messages
